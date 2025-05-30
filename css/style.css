@@ -56,3 +56,81 @@ nav ul li {
     padding: 10px;
     color: rgb(203, 213, 225);
 }
+
+.banner {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.context-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.context-box .title {
+    color: #f1f5f9;
+    font-size: 63px;
+    font-weight: 800;
+}
+
+.context-box .title span {
+    color: #069de3;
+}
+
+.context-box .subtitle {
+    color: rgb(129, 140, 248);
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.context-box .subtitle span{
+    color: #069de3;
+}
+
+.context-box .description {
+    color: rgb(203, 213, 225);
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.button-box {
+    display: flex;
+    gap: 20px;
+}
+
+.button-box .product{
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    background-color: #069de3;
+    color: #f1f5f9;
+    border: 0;
+    font-size: 15px;
+    padding: 15px 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 23, 60, 0.1) 0px 8px 24px;
+}
+
+.button-box .contact{
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(51, 65, 85, 0.50);
+    color: #f1f5f9;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 23, 60, 0.1) 0px 8px 24px;
+}
