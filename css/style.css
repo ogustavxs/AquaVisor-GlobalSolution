@@ -14,7 +14,7 @@ header {
     background-color: #141932;
     color: #f1f5f9;
     display: flex;
-    padding: 20px 0;
+    padding: 20px 20px;
     align-items: center;
     justify-content: space-around;
     box-shadow: rgba(0, 23, 60, 0.75) 0px 10px 10px -10px;
@@ -32,7 +32,7 @@ header .logo-area {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    margin-right: 20px;
 }
 
 .logo-area h3 {
@@ -51,24 +51,25 @@ nav ul {
     gap: 30px;
     font-weight: 500;
     font-size: 14px;
+    flex-wrap: wrap;
 }
 
 nav ul a {
     text-decoration: none;
     color: rgb(203, 213, 225);
+    padding: 10px;
 }
 
 nav ul li {
     cursor: pointer;
-    padding: 10px;
     color: rgb(203, 213, 225);
 }
 
-nav ul li:hover {
+nav ul a:hover {
     background-color: rgb(51, 65, 85, 0.50);
     border-radius: 7px;
-    color: #f1f5f9;
     transition: background-color 0.2s;
+    color: #f1f5f9;
 }
 
 nav ul li:active {
@@ -168,7 +169,7 @@ footer {
     background-color: rgb(2, 6, 23);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
     gap: 25px;
@@ -184,6 +185,10 @@ footer ul {
 footer ul a {
     text-decoration: none;
     color: rgb(148, 163, 184);;
+}
+
+footer ul a:hover {
+    color: #dce1e5;
 }
 
 footer .logo img {
