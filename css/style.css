@@ -8,6 +8,8 @@ body {
     background-color: #20284e;
 }
 
+/* Header */
+
 header {
     background-color: #141932;
     color: #f1f5f9;
@@ -51,11 +53,30 @@ nav ul {
     font-size: 14px;
 }
 
+nav ul a {
+    text-decoration: none;
+    color: rgb(203, 213, 225);
+}
+
 nav ul li {
     cursor: pointer;
     padding: 10px;
     color: rgb(203, 213, 225);
 }
+
+nav ul li:hover {
+    background-color: rgb(51, 65, 85, 0.50);
+    border-radius: 7px;
+    color: #f1f5f9;
+    transition: background-color 0.2s;
+}
+
+nav ul li:active {
+    transform: scale(0.99);
+    transition: all 0.1s;
+}
+
+/* Banner */
 
 .banner {
     display: flex;
@@ -133,4 +154,10 @@ nav ul li {
     border-radius: 7px;
     cursor: pointer;
     box-shadow: rgba(0, 23, 60, 0.1) 0px 8px 24px;
+}
+
+.button-box .contact:hover, .button-box .product:hover {
+    box-shadow: rgba(0, 73, 190, 0.1) 0px 8px 24px;
+    transform: scale(0.995);
+    transition: all 0.3s;
 }
