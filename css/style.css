@@ -164,6 +164,11 @@ nav ul li:active {
     transition: all 0.3s;
 }
 
+.button-box .contact:active, .button-box .product:active {
+    transform: scale(0.985);
+    transition: all 0.1s;
+}
+
 /* Footer */
 footer {
     background-color: rgb(2, 6, 23);
