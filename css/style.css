@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #20284e;
+}
+
+/* Header */
+
+header {
+    background-color: #141932;
+    color: #f1f5f9;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 23, 60, 0.75) 0px 10px 10px -10px;
+}
+
+header img {
+    width: 55px;
+    height: 45px;
+}
+
+header .logo-area {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.logo-area h3 {
+    font-size: 28px;
+}
+
+.logo-area h3 span {
+    color: #069de3;
+}
+
+
+nav ul {
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(203, 213, 225);
+    padding: 10px;
+}
+
+nav ul li {
+    cursor: pointer;
+    color: rgb(203, 213, 225);
+}
+
+nav ul a:hover {
+    background-color: rgb(51, 65, 85, 0.50);
+    border-radius: 7px;
+    transition: background-color 0.2s;
+    color: #f1f5f9;
+}
+
+nav ul li:active {
+    transform: scale(0.99);
+    transition: all 0.1s;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.context-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.context-box .title {
+    color: #f1f5f9;
+    font-size: 63px;
+    font-weight: 800;
+}
+
+.context-box .title span {
+    color: #069de3;
+}
+
+.context-box .subtitle {
+    color: rgb(129, 140, 248);
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.context-box .subtitle span{
+    color: #069de3;
+}
+
+.context-box .description {
+    color: rgb(203, 213, 225);
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.button-box {
+    display: flex;
+    gap: 20px;
+}
+
+.button-box .product{
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    background-color: #069de3;
+    color: #f1f5f9;
+    border: 0;
+    font-size: 15px;
+    padding: 15px 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 23, 60, 0.1) 0px 8px 24px;
+}
+
+.button-box .contact{
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(51, 65, 85, 0.50);
+    color: #f1f5f9;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 23, 60, 0.1) 0px 8px 24px;
+}
+
+.button-box .contact:hover, .button-box .product:hover {
+    box-shadow: rgba(0, 73, 190, 0.1) 0px 8px 24px;
+    transform: scale(0.995);
+    transition: all 0.3s;
+}
+
+.button-box .contact:active, .button-box .product:active {
+    transform: scale(0.985);
+    transition: all 0.1s;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(2, 6, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+}
+
+footer ul {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    gap: 40px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: rgb(148, 163, 184);;
+}
+
+footer ul a:hover {
+    color: #dce1e5;
+}
+
+footer .logo img {
+    width: 55px;
+    height: 45px;
+}
+
+footer p {
+    color: rgb(109, 120, 135);
+    font-family: 'Inter', sans-serif;
+}
