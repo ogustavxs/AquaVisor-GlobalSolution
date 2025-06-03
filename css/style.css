@@ -169,6 +169,83 @@ nav ul li:active {
     transition: all 0.1s;
 }
 
+/* Contato */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.form h2 {
+    font-size: 45px;
+    color: #069de3;
+    margin-bottom: 20px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form form .form-group label {
+    font-size: 20px;
+    color: rgb(129, 140, 248);
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+.form form .form-group input,
+.form form .form-group textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 800px;
+    font-size: 14px;
+}
+
+.form form .form-group textarea {
+    height: 170px; 
+    resize: none;
+}
+
+.form form button {
+    font-family: 'Inter', sans-serif;
+    background-color: #069de3;
+    color: #f1f5f9;
+    border: 0;
+    font-size: 17px;
+    padding: 15px 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 150px;
+    align-items: center;
+    box-shadow: rgba(0, 23, 60, 0.1) 0px 8px 24px;
+}
+
+.form form button:hover {
+    box-shadow: rgba(0, 73, 190, 0.1) 0px 8px 24px;
+    transform: scale(0.995);
+    transition: all 0.3s;
+}
+
+.form form button:active {
+    transform: scale(0.985);
+    transition: all 0.1s;
+}
+
 /* Footer */
 footer {
     background-color: rgb(2, 6, 23);
