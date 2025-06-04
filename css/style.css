@@ -169,6 +169,192 @@ nav ul li:active {
     transition: all 0.1s;
 }
 
+/* Objetivos*/
+
+.slideshow {
+    margin: 0 auto;
+    width: 1300px;
+    height: 830px;
+    overflow: hidden;
+}
+
+.slideshow h2 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.slideshow h2 span {
+    color: #069de3;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slideshow img {
+    width: 1300px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 1300px;
+    margin-top: 305px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 70px;
+}
+
+.manual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+.navigation-auto div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 1300px;
+    margin-top: 705px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 70px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+/* Contato */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.form h2 {
+    font-size: 45px;
+    color: #069de3;
+    margin-bottom: 20px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form form .form-group label {
+    font-size: 20px;
+    color: rgb(129, 140, 248);
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+.form form .form-group input,
+.form form .form-group textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 800px;
+    font-size: 14px;
+}
+
+.form form .form-group textarea {
+    height: 170px; 
+    resize: none;
+}
+
+.form form button {
+    font-family: 'Inter', sans-serif;
+    background-color: #069de3;
+    color: #f1f5f9;
+    border: 0;
+    font-size: 17px;
+    padding: 15px 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 150px;
+    align-items: center;
+    box-shadow: rgba(0, 23, 60, 0.1) 0px 8px 24px;
+}
+
+.form form button:hover {
+    box-shadow: rgba(0, 73, 190, 0.1) 0px 8px 24px;
+    transform: scale(0.995);
+    transition: all 0.3s;
+}
+
+.form form button:active {
+    transform: scale(0.985);
+    transition: all 0.1s;
+}
+
 /* Footer */
 footer {
     background-color: rgb(2, 6, 23);

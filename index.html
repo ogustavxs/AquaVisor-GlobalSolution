@@ -38,6 +38,55 @@
             <button class="contact">Entre em contato</button>
         </div>
     </section>
+    <section id="objetivos" class="slideshow">
+        <h2>Nossos <span>objetivos</span></h2>
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="slide first">
+                <img src="./images/objetivo 1.png" alt="primeiro objetivo com uma enchente no fundo">
+            </div>        
+            <div class="slide">
+                <img src="./images/objetivo 2.png" alt="segundo objetivo com uma enchente no fundo">
+            </div>        
+            <div class="slide">
+                <img src="./images/objetivo 3.png" alt="terceiro objetivo com uma enchente no fundo">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>        
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>   
+            <label for="radio2" class="manual-btn"></label>   
+            <label for="radio3" class="manual-btn"></label>      
+        </div>
+    </section>
+    <section id="contato" class="form">
+        <h2>Entre em contato conosco!</h2>
+        <form id="form" action="#" method="get" autocomplete="off">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input  id="nome" name="nome" placeholder="Digite seu nome completo...">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email...">
+            </div>
+            <div  class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="number" id="telefone" name="telefone" placeholder="Digite seu número de telefone...">
+            </div>
+            <div  class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="Mensagem" placeholder="Digite sua mensagem..."></textarea>
+            </div>
+            <button id="btnEnviar" class="enviar" type="button">Enviar</button>
+        </form>
+    </section>
     <footer>
         <ul>
             <li><a href="#">O Problema</a></li>
@@ -52,4 +101,5 @@
         <p>© 2025 AquaVisor. Todos os direitos reservados. Sua segurança inteligente.</p>
     </footer>
 </body>
+<script src="./scripts/script.js"></script>
 </html>
