@@ -1,3 +1,5 @@
+// Verificação do formulário 
+
 const inputNome = document.getElementById("nome")
 const inputEmail = document.getElementById("email")
 const inputTelefone = document.getElementById("telefone")
@@ -30,3 +32,21 @@ btnEnviar.addEventListener("click", (e) => {
     alert(primeiroNome + ", obrigado por entrar em contato, aguarde nosso retorno!")
     form.reset()
 })
+
+// Automatização do SlideShow
+
+let count = 1
+document.getElementById("radio1").checked = true
+
+setInterval( function(){
+    nextImage();
+}, 5500)
+
+function nextImage(){
+    count++
+    if(count>3){
+        count = 1;
+    }
+
+    document.getElementById("radio"+count).checked = true
+}
