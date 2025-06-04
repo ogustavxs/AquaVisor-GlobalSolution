@@ -173,8 +173,8 @@ nav ul li:active {
 
 .slideshow {
     margin: 0 auto;
-    width: 1300px;
-    height: 830px;
+    width: 900px;
+    height: 680px;
     overflow: hidden;
 }
 
@@ -207,13 +207,13 @@ nav ul li:active {
 }
 
 .slideshow img {
-    width: 1300px;
+    width: 900px;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 1300px;
-    margin-top: 305px;
+    width: 900px;
+    margin-top: 85px;
     display: flex;
     justify-content: center;
 }
@@ -227,7 +227,7 @@ nav ul li:active {
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 .manual-btn:hover {
@@ -256,14 +256,14 @@ nav ul li:active {
 
 .navigation-auto {
     position: absolute;
-    width: 1300px;
-    margin-top: 705px;
+    width: 900px;
+    margin-top: 485px;
     display: flex;
     justify-content: center;
 }
 
 .navigation-auto div:not(:last-child) {
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
