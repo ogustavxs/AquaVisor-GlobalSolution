@@ -7,24 +7,71 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <header>
+    <div class="logo-area">
+        <a href="../index.html"><img src="../images/logo_icon.png" id="logo-img" alt="A logo do AquaVisor, uma gota azul"></a>
+        <h3><span>Aqua</span>Visor</h3>
+    </div>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="../index.html#problema">O Problema</a></li>
+                <li><a href="../index.html#tecnologia">Tecnologia</a></li>
+                <li><a href="../index.html#objetivos">Objetivos</a></li>
+                <li><a href="../index.html#publico">Público-Alvo</a></li>
+                <li><a href="../index.html#beneficios">Benefícios</a></li>
+                <li><a href="../index.html#diaadia">No Dia a Dia</a></li>
+                <li><a href="./quiz.html">Quiz</a></li>
+            </ul>
+
+            <div class="theme-selector">
+                <button class="theme-btn" data-theme="normal">
+                    <img src="../images/normal.png" alt="Ícone para ativar tema padrão">
+                </button>
+                <button class="theme-btn" data-theme="dark">
+                    <img src="../images/dark.png" alt="Ícone para ativar tema escuro">
+                </button>
+                <button class="theme-btn" data-theme="light">
+                    <img src="../images/light.png" alt="Ícone para ativar tema claro">
+                </button>
+            </div>
+            
+            <button id="hamburguer-button"><img src="../images/hamburguer_icon.png" alt="Abrir menu de navegação"></button>
+        </nav>
+    </header>
+    <section class="hamburguer-menu">
+        <ul>
+            <li><a href="../index.html#problema">O Problema</a></li>
+            <li><a href="../index.html#tecnologia">Tecnologia</a></li>
+            <li><a href="../index.html#objetivos">Objetivos</a></li>
+            <li><a href="../index.html#publico">Público-Alvo</a></li>
+            <li><a href="../index.html#beneficios">Benefícios</a></li>
+            <li><a href="../index.html#diaadia">No Dia a Dia</a></li>
+            <li><a href="./quiz.html">Quiz</a></li>
+        </ul>
+    </section>
     <section>
         <div class="quizContainer">
             <h1>Aquavisor Quiz</h1>
-            <br>
-            <hr class="linhaHorizontal">
-            <br>
             <div class="quiz">
-                <h2 id="pergunta">Question goes here</h2>
-                <div class="botaoResposta">
-                    <button class="btnQuiz">Answer A</button>
-                    <button class="btnQuiz">Answer B</button>
-                    <button class="btnQuiz">Answer C</button>
-                    <button class="btnQuiz">Answer D</button>
+                <h2 id="pergunta"></h2>
+                <div id="botaoResposta">
                 </div>
-                <button id="next">Próxima pergunta!</button>
             </div>
         </div>
     </section>
+    <footer>
+        <ul>
+            <li><a href="../index.html#problema">O Problema</a></li>
+            <li><a href="../index.html#objetivos">Objetivos</a></li>
+            <li><a href="../index.html#beneficios">Benefícios</a></li>
+            <li><a href="https://www.fiap.com.br/">FIAP</a></li>
+            <li><a href="https://www.fiap.com.br/graduacao/global-solution/">Global Solution</a></li>
+        </ul>
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo_icon.png" alt=""></a>
+        </div>
+        <p>© 2025 AquaVisor. Todos os direitos reservados. Sua segurança inteligente.</p>
+    </footer>
 </body>
-<script src="../scripts/script.js"></script>
+<script src="../scripts/quiz.js"></script>
 </html>
