@@ -12,21 +12,47 @@
 </head>
 <body>
     <header>
-        <div class="logo-area">
-            <a href="#"><img src="./images/logo_icon.png" alt="A logo do AquaVisor, uma gota azul"></a>
-            <h3><span>Aqua</span>Visor</h3>
-        </div>
+    <div class="logo-area">
+        <a href="#"><img src="./images/logo_icon.png" id="logo-img" alt="A logo do AquaVisor, uma gota azul"></a>
+        <h3><span>Aqua</span>Visor</h3>
+    </div>
         <nav>
-            <ul>
-                <li><a href="#">O Problema</a></li>
-                <li><a href="#">Tecnologia</a></li>
-                <li><a href="#">Objetivos</a></li>
-                <li><a href="#">Público-Alvo</a></li>
-                <li><a href="#">Benefícios</a></li>
-                <li><a href="#">No Dia a Dia</a></li>
+            <ul class="nav-bar">
+                <li><a href="#problema">O Problema</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#publico">Público-Alvo</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#diaadia">No Dia a Dia</a></li>
+                <li><a href="./pages/quiz.html">Quiz</a></li>
             </ul>
+
+            <div class="theme-selector">
+                <button class="theme-btn" data-theme="normal">
+                    <img src="./images/normal.png" alt="Ícone para ativar tema padrão">
+                </button>
+                <button class="theme-btn" data-theme="dark">
+                    <img src="./images/dark.png" alt="Ícone para ativar tema escuro">
+                </button>
+                <button class="theme-btn" data-theme="light">
+                    <img src="./images/light.png" alt="Ícone para ativar tema claro">
+                </button>
+            </div>
+            
+            <button id="hamburguer-button"><img src="./images/hamburguer_icon.png" alt="Abrir menu de navegação"></button>
         </nav>
     </header>
+    <section class="hamburguer-menu">
+        <ul>
+            <li><a href="#problema">O Problema</a></li>
+            <li><a href="#tecnologia">Tecnologia</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#publico">Público-Alvo</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#diaadia">No Dia a Dia</a></li>
+            <li><a href="./pages/quiz.html">Quiz</a></li>
+        </ul>
+    </section>
     <section class="banner">
         <div class="context-box">
             <h1 class="title">Bem-vindo ao <span>AquaVisor</span></h1>
@@ -34,23 +60,28 @@
             <h4 class="description">Conheça nossos alertas instantâneos, o monitoramento preciso por sensores e a confiança de um sistema sempre ativo, para uma comunidade mais segura e preparada.</h4>
         </div>
         <div class="button-box">
-            <button class="product">Conheça o produto »</button>
-            <button class="contact">Entre em contato</button>
+            <button class="product"><a href="#tecnologia">Conheça o produto »</a></button>
+            <button class="contact"><a href="#contato">Entre em contato</a></button>
         </div>
     </section>
     <section id="secao">
         <div class="container">
-            <div class="caixa"> 
+            <div class="caixa" id="problema"> 
                 <br>
                 <h3>O Problema</h3>
                 <br>
                 <hr class="linhaHorizontal">
+                <p>As enchentes no Brasil são tragédias anunciadas que impactam milhões de pessoas anualmente. Os sistemas de alerta atuais são muitas vezes falhos.</p>
+                <p>Nossa solução enfrenta a falta de avisos precisos e confiáveis, principalmente em áreas vulneráveis e sem acesso estável à internet.</p>
+                
             </div>
-            <div class="caixa">
+            <div class="caixa" id="tecnologia">
                 <br>
                 <h3>Tecnologia</h3>
                 <br>
                 <hr class="linhaHorizontal">
+                <p>Utilizamos um sistema físico com sensores que monitoram o nível da água, emitindo alertas sonoros (buzzer) e visuais (LEDs) localmente.</p>
+                <p>Os dados coletados pelos sensores também são enviados para um site, permitindo o monitoramento online das regiões de risco</p>
             </div>
         </div>
 
@@ -85,23 +116,29 @@
 
     <section id="secao">
         <div class="container">
-            <div class="caixa"> 
+            <div class="caixa" id="publico"> 
                 <br>
                 <h3>Público-Alvo</h3>
                 <br>
                 <hr class="linhaHorizontal">
+                <p>Nossa solução é destinada a pessoas que vivem em áreas com risco de enchentes e buscam mais segurança para suas famílias.</p>
+                <p>Focamos em comunidades que precisam de um sistema de alerta confiável, especialmente onde a infraestrutura de internet é limitada ou instável.</p>
             </div>
-            <div class="caixa">
+            <div class="caixa" id="beneficios">
                 <br>
                 <h3>Benefícios</h3>
                 <br>
                 <hr class="linhaHorizontal">
+                <p>Oferecemos um dispositivo robusto e de fácil instalação, que garante o funcionamento dos alertas mesmo sem internet.</p>
+                <p>Nosso site é de fácil utilização e se mantém constantemente atualizado com as informações coletadas pelos dispositivos de monitoramento.</p>
             </div>
-            <div class="caixa">
+            <div class="caixa" id="diaadia">
                 <br>
                 <h3>No Dia a Dia</h3>
                 <br>
                 <hr class="linhaHorizontal">
+                <p>Com notificações em tempo real, o morador pode se preparar com antecedência, aumentando a segurança de sua família e de seus bens.</p>
+                <p>O sistema de alertas locais traz mais confiança durante períodos de chuva forte, garantindo avisos mesmo que a internet não funcione.</p>
             </div>
         </div>
 
@@ -131,11 +168,11 @@
     </section>
     <footer>
         <ul>
-            <li><a href="#">O Problema</a></li>
-            <li><a href="#">Objetivos</a></li>
-            <li><a href="#">Benefícios</a></li>
-            <li><a href="#">FIAP</a></li>
-            <li><a href="#">Global Solution</a></li>
+            <li><a href="#problema">O Problema</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="https://www.fiap.com.br/">FIAP</a></li>
+            <li><a href="https://www.fiap.com.br/graduacao/global-solution/">Global Solution</a></li>
         </ul>
         <div class="logo">
             <a href="#"><img src="./images/logo_icon.png" alt=""></a>
