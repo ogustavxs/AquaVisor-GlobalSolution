@@ -50,3 +50,91 @@ function nextImage(){
 
     document.getElementById("radio"+count).checked = true
 }
+
+// Quiz
+
+
+/*const pergunta = [
+    {
+        pergunta: "A",
+        resposta: [
+            {text: "A", correct: false},
+            {text: "A", correct: true},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+        ]
+    },
+    {
+        pergunta: "A",
+        resposta: [
+            {text: "A", correct: true},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+        ]
+    },
+    {
+        pergunta: "A",
+        resposta: [
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+            {text: "A", correct: true},
+            {text: "A", correct: false},
+        ]
+    },
+        {
+        question: "A",
+        resposta: [
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+            {text: "A", correct: true},
+        ]
+    },
+    {
+        pergunta: "A",
+        resposta: [
+            {text: "A", correct: true},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+        ]
+    },
+    {
+        pergunta: "A",
+        resposta: [
+            {text: "A", correct: true},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+            {text: "A", correct: false},
+        ],
+    }
+];
+
+const perguntaElement = document.getElementById("pergunta")
+const respostaElement = document.getElementById("btnQuiz")
+const nextElement = document.getElementById("next")
+
+let perguntaIndex = 0;
+let pontuacao = 0;
+
+function comecarQuiz(){
+    perguntaIndex = 0;
+    pontuacao = 0;
+    nextElement.innerHTML = "Next";
+    showQuestion();
+}
+
+function mostrarPergunta(){
+    //resetState();
+    let perguntaAtual = perguntas[perguntaIndex];
+    let perguntaNmr = perguntaIndex + 1;
+    perguntaElement.innerHTML = perguntaNmr + ". " + perguntaAtual.pergunta;
+
+    perguntaAtual.respostas.forEach(resposta => {
+        const botao = document.createElement("botao");
+        botao.innerHTML = resposta.text;
+        botao.classList.add("botaoQuiz");
+        respostaBotao.appendChild(botao);
+    });
+}*/

@@ -285,7 +285,6 @@ nav ul li:active {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
 }
 .caixa {
     width: 45rem;
@@ -414,4 +413,63 @@ footer .logo img {
 footer p {
     color: rgb(109, 120, 135);
     font-family: 'Inter', sans-serif;
+}
+
+/*Quiz*/
+
+.quizContainer{
+    background: #dce1e5;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.quizContainer h1{
+    text-align: center;
+    font-weight: 25px;
+    color: #141932;
+}
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-weight: 25px;
+    text-align: left;
+    color: #141932;
+}
+
+.btnQuiz{
+    background: #fff;
+    color: #141932;
+    width: 100%;
+    border: 1px solid #141932;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+}
+.btnQuiz:hover{
+    background: #141932;
+    color: white;
+}
+
+#next{
+    background: #fff;
+    color: #141932;
+    width: 30%;
+    border: 1px solid #141932;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    display: none;
+}
+
+#next:hover{
+    background: #141932;
+    color: #fff;
 }
