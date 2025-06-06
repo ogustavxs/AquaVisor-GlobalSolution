@@ -12,21 +12,47 @@
 </head>
 <body>
     <header>
-        <div class="logo-area">
-            <a href="#"><img src="./images/logo_icon.png" alt="A logo do AquaVisor, uma gota azul"></a>
-            <h3><span>Aqua</span>Visor</h3>
-        </div>
+    <div class="logo-area">
+        <a href="#"><img src="./images/logo_icon.png" id="logo-img" alt="A logo do AquaVisor, uma gota azul"></a>
+        <h3><span>Aqua</span>Visor</h3>
+    </div>
         <nav>
-            <ul>
-                <li><a href="#">O Problema</a></li>
-                <li><a href="#">Tecnologia</a></li>
-                <li><a href="#">Objetivos</a></li>
-                <li><a href="#">Público-Alvo</a></li>
-                <li><a href="#">Benefícios</a></li>
-                <li><a href="#">No Dia a Dia</a></li>
+            <ul class="nav-bar">
+                <li><a href="#problema">O Problema</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#publico">Público-Alvo</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#diaadia">No Dia a Dia</a></li>
+                <li><a href="#">Quiz</a></li>
             </ul>
+
+            <div class="theme-selector">
+                <button class="theme-btn" data-theme="normal">
+                    <img src="./images/normal.png" alt="Ícone para ativar tema padrão">
+                </button>
+                <button class="theme-btn" data-theme="dark">
+                    <img src="./images/dark.png" alt="Ícone para ativar tema escuro">
+                </button>
+                <button class="theme-btn" data-theme="light">
+                    <img src="./images/light.png" alt="Ícone para ativar tema claro">
+                </button>
+            </div>
+            
+            <button id="hamburguer-button"><img src="./images/hamburguer_icon.png" alt="Abrir menu de navegação"></button>
         </nav>
     </header>
+    <section class="hamburguer-menu">
+        <ul>
+            <li><a href="#problema">O Problema</a></li>
+            <li><a href="#tecnologia">Tecnologia</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#publico">Público-Alvo</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#diaadia">No Dia a Dia</a></li>
+            <li><a href="#">Quiz</a></li>
+        </ul>
+    </section>
     <section class="banner">
         <div class="context-box">
             <h1 class="title">Bem-vindo ao <span>AquaVisor</span></h1>
