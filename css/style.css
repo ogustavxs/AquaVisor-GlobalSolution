@@ -367,7 +367,7 @@ nav button#hamburguer-button img {
     width: auto; 
     display: flex;
     justify-content: center;
-    gap: 20px; 
+    gap: 70px; 
 }
 
 .manual-btn {
@@ -394,6 +394,8 @@ nav button#hamburguer-button img {
     margin-left: -66.6666%;
 }
 
+/* Navegação Automatica */
+
 .navigation-auto {
     position: absolute;
     bottom: 20px; 
@@ -402,7 +404,7 @@ nav button#hamburguer-button img {
     width: auto;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
 }
 
 .navigation-auto div {
@@ -418,6 +420,8 @@ nav button#hamburguer-button img {
 #radio3:checked ~ .navigation-auto .auto-btn3 {
     background-color: var(--color-text-inverted);
 }
+
+/* Seções */
 
 .container {
     font-family: 'Inter', sans-serif;
@@ -723,6 +727,9 @@ footer p {
         align-items: center;
         justify-content: center;
     }
+    .navigation-auto, .manual-navigation {
+        bottom: 10px;
+    }   
 }
 
 @media (max-width:800px) {
