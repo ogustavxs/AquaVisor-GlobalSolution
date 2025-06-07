@@ -530,7 +530,7 @@ nav button#hamburguer-button img {
     padding: 18px; 
     font-size: 16px; 
     background-color: white;
-    color: var(--color-text-secondary);
+    color: black;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
