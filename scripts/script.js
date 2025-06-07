@@ -56,7 +56,7 @@ const hamburguerButton = document.getElementById('hamburguer-button');
 const hamburguerMenu = document.querySelector('.hamburguer-menu');
 
 hamburguerButton.addEventListener('click', () => {
-    if (window.innerWidth >= 1090) {
+    if (window.innerWidth >= 1200) {
         hamburguerMenu.style.display = 'none';
         return;
     }
@@ -64,7 +64,7 @@ hamburguerButton.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', () => {
-    if (window.innerWidth >= 1090) {
+    if (window.innerWidth >= 1200) {
         hamburguerMenu.style.display = 'none';
     }
 });

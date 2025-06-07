@@ -686,6 +686,9 @@ footer p {
     header nav ul.nav-bar {
         display: none;
     }
+    body header nav .theme-selector {
+        display: none;
+    }
     header nav button#hamburguer-button {
         display: block;
     }
